@@ -1,38 +1,358 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 90%;
+  margin: 0 auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#header {
+  padding: 20px 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.imageBack {
+  width: 1596px;
+  height: 1127px;
+}
+.textBack {
+  position: relative;
+  bottom: 830px;
+  left: 450px;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  width: 700px;
+}
+.btnBack {
+  position: relative;
+  bottom: 730px;
+  left: 650px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 6px;
+  background: #000;
+  padding: 18px 50px;
+  gap: 10px;
+}
+
+.header-block2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+.header-block2 button {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 6px;
+  background: #000;
+  padding: 8px 22px;
+  border: none;
+}
+#section {
+  padding: 70px 0;
+}
+.block_model {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+}
+.section-block1 {
+  display: flex;
+  align-items: center;
+  width: 1240px;
+  justify-content: center;
+  height: 341px;
+  border-radius: 12px;
+  border: 3px solid rgba(0, 0, 0, 0.24);
+}
+.section-block1 p {
+  width: 1070px;
+  color: #000;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 136.151%;
+}
+.section-block2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1250px;
+  position: relative;
+  bottom: 45px;
+  gap: 20px;
+}
+.q1 {
+  width: 390px;
+  height: 290px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 4px 14.8px 0px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+}
+.q1 h2 {
+  color: rgba(0, 0, 0, 0.4);
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 136.151%;
+}
+.q1 h3 {
+  color: #000;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 136.151%;
+  width: 98px;
+}
+.q1 p {
+  width: 312px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 136.151%;
+}
+.header-img {
+  width: 1769px;
+  height: 1127px;
+}
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.image_main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.image_block {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.divImage1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.divImage2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.footer h3 {
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+}
+#footer {
+  padding: 90px 0;
+}
+.login,
+.logins {
+  padding: 50px 0;
+}
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+}
+.logins {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.loginImg img {
+  width: 420px;
+  position: relative;
+  left: 80px;
 }
 
-.App-link {
-  color: #61dafb;
+.loginBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loginsBlock {
+  display: inline-flex;
+  height: 759px;
+  flex-direction: column;
+  align-items: center;
+  gap: 42px;
+  flex-shrink: 0;
+}
+.loginBlock h1 {
+  position: relative;
+  left: 100px;
+  width: 378px;
+  height: 45px;
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 500;
+}
+.loginsBlock h1 {
+  position: relative;
+  left: 80px;
+  width: 378px;
+  height: 45px;
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 500;
+}
+.loginText input,
+.loginsText input {
+  width: 502.238px;
+  height: 58.594px;
+  border-radius: 12px;
+}
+.loginText input::placeholder,
+.loginsText input::placeholder {
+  padding-left: 30px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 16.741px;
+  font-weight: 400;
+}
+.loginText p,
+.loginsText p {
+  color: #000;
+  font-family: Inter;
+  font-size: 16.741px;
+  font-weight: 400;
+  margin: 10px 5px;
+}
+.btnVxod {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  padding: 16px 221.5px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  background: #1d53c5;
+  border: none;
+  margin-left: 7px;
+}
+.btnVxods {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  padding: 16px 161.5px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  background: #1d53c5;
+  border: none;
+}
+.loginText2 p {
+  padding-left: 50px;
+  color: #000;
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30.503px;
+}
+.loginsText2 p {
+  color: #000;
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30.503px;
+}
+.loginText2 p span {
+  color: #1d53c5;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.503px;
+}
+.loginText3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  left: 50px;
+}
+.loginsText3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.loginText3 hr,
+.loginsText3 hr {
+  width: 150px;
+}
+.loginText3 p,
+.loginsText3 p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30.503px;
+  margin: 0 40px;
+}
+.loginBtn,
+.loginsBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20.09px;
+  font-weight: 500;
+  line-height: 25.533px;
+  width: 238.563px;
+  height: 51.061px;
+  border-radius: 5.859px;
+  border: 0.837px solid #1d53c5;
+}
+.loginText4,
+.loginsText4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
 }
